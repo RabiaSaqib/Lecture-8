@@ -36,6 +36,42 @@ int main()
 	}
 }
   
+	
+	
+	// Exercise - Playing game
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	char input;
+	cout << "Would you like to continue the game? \n Tye Y if yes \n Tyoe N if no " << endl;
+	cin >> input;
+
+	switch (input) {
+	case 'y':
+	case 'Y':
+	{
+		cout << "Continue the game" << endl;
+		break;
+	}
+	
+
+	case 'n':
+	case 'N':
+	{
+		cout << "Quit the game!" << endl;
+		break;
+	}
+	default:
+	{
+		cout << "Invalid command!" << endl;
+	}
+	}
+	return 0;
+}
   
   
   
